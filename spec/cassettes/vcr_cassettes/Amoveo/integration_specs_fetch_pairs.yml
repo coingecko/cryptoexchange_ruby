@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://amoveo.exchange/api/v1/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - amoveo.exchange
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 11 Aug 2018 18:36:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d32a8521ae6c65022256e9a6725a4bc171534012579; expires=Sun, 11-Aug-19
+        18:36:19 GMT; path=/; domain=.amoveo.exchange; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Etag:
+      - W/"da6ad478ed9e7750595618a814ab7e3c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4795e7c1-802f-4a6d-8f5a-6d55298c83e6
+      X-Runtime:
+      - '0.021885'
+      X-Cloud-Trace-Context:
+      - 10af10e5d19527b2572307504a7cc5e6/14225714808769401385;o=1
+      Via:
+      - 1.1 google
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 448cce9dccfb30f6-SIN
+    body:
+      encoding: UTF-8
+      string: '{"VEO_ETH":{"open":0.35,"low":0.35,"last":0.37,"high":0.37,"volume":11.61798808}}'
+    http_version: 
+  recorded_at: Sat, 11 Aug 2018 18:36:28 GMT
+recorded_with: VCR 4.0.0

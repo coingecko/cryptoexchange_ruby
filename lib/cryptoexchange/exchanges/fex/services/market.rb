@@ -19,23 +19,18 @@ module Cryptoexchange::Exchanges
 
         def adapt_all(output)
           output.map do |ticker|
-            base, target = ticker['symbol'].split("/")
-            market_pair = Cryptoexchange::Models::MarketPair.new(
-              base:   base,
-              target: target,
-              market: Fex::Market::NAME
-            )
-            adapt(ticker, market_pair)
+            adapt(ticker)
           end
         end
 
-        def adapt(output, market_pair)
-          ticker           = Cryptoexchange::Models::Ticker.new
-          ticker.base      = market_pair.base
-          ticker.target    = market_pair.target
-          ticker.market    = Fex::Market::NAME
-          ticker.ask       = NumericHelper.to_d(output['sell'])
-          ticker.bid       = NumericHelper.to_d(output['buy'])
+        def adapt(output)
+          base, target  = output['symbol'].split('/')
+          ticker        = Cryptoexchange::Models::Ticker.new
+          ticker.base   = base
+          ticker.target = target
+          ticker.market = Fex::Market::NAME
+          ticker.ask    = NumericHelper.to_d(output['sell'])
+          ticker.bid    = NumericHelper.to_d(output['buy'])
           # this is their typo
           ticker.last      = NumericHelper.to_d(output['colse'])
           ticker.volume    = NumericHelper.to_d(output['volume'])

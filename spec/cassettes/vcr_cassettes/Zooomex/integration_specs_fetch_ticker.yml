@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.zooomex.com/api/v2/trade/public/markets/btcusdt/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.zooomex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Encoding:
+      - gzip
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Length:
+      - '258'
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 09 Aug 2019 14:18:31 GMT
+      Etag:
+      - W/"b19b3d2657aeb8032618b6b902d3c40d"
+      Host:
+      - www.zooomex.com
+      Server:
+      - envoy
+      Set-Cookie:
+      - _session_id=y0V7rFnbTeNhd5pKTwq9XN8ZNNZcCUGYUnipMiyB7SppLofcGHRysTcgkVmCSjIpjDyTdgHSAQkDQaha7Q%3D%3D--VTq9ECCtpNr04lbJ--2Dnyxzohst%2FRuPe9EgGozg%3D%3D;
+        path=/; HttpOnly
+      User-Agent:
+      - http.rb/5.0.0.pre
+      Vary:
+      - Origin
+      Version:
+      - HTTP/1.1
+      X-Envoy-Expected-Rq-Timeout-Ms:
+      - '15000'
+      X-Envoy-Original-Path:
+      - "/api/v2/trade/public/markets/btcusdt/tickers"
+      X-Envoy-Upstream-Service-Time:
+      - '19'
+      X-Forwarded-For:
+      - 193.232.173.109
+      X-Forwarded-Host:
+      - www.zooomex.com
+      X-Forwarded-Port:
+      - '443'
+      X-Forwarded-Proto:
+      - https
+      X-Forwarded-Server:
+      - 5e5839b9f605
+      X-Real-Ip:
+      - 193.232.173.109
+      X-Request-Id:
+      - 779a0cda-0b5a-47ea-be15-151d4687b9d7
+      X-Runtime:
+      - '0.012839'
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":"BTC/USDT","base_unit":"btc","quote_unit":"usdt","low":"9715.0","high":"10013.0","last":"9991.0","open":11905.0,"amount":"0.0","volume":"458.8760817","sell":"0.0","buy":"10013.0","avg_price":"9948.871575682901293334","price_change_percent":"-16.08%"}'
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 14:18:31 GMT
+recorded_with: VCR 4.0.0

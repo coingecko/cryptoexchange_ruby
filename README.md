@@ -509,6 +509,7 @@ Or install it yourself as:
 | Zeniex            | Y       | Y          | Y       |         | Y           |          | zeniex            |       |
 | ZG                | Y       |            |         |         | Y           | Y        | zg                |       |
 | ZG.TOP            | Y       |            |         |         | Y           |          | zgtop             |       |
+| Zooomex           | Y       | Y [x]      | Y       |         | Y           | Y        | zooomex           |       |
 
 ### Derivatives (Perpetual & Futures)
 | Exchange          | T | OB | List | URL | OpenInt | CT  | Idx | Idxid | Idxn | ST | ET | F% | NFT | F%P |                  |

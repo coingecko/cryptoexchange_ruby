@@ -128,7 +128,7 @@ Or install it yourself as:
 | Bkex              | Y       | Y [x]      | N       |         | Y           | Y        | bkex              |       |
 | Bleutrade         | Y       |            |         |         | Y           |          | bleutrade         |       |
 | Blockonix         | Y       | Y          | Y       |         | Y           |          | blockonix         |       |
-| Blokmy            | Y       | Y          | Y       |         | Y           | Y        | blokmy            |       |
+| Blokmy            | Y       | Y          | Y       |         | Y           | Y        | blokmy            |       | 
 | Boa               | Y [x]   | Y          | Y       |         | Y           | Y        | boa               |       |
 | Braziliex (halted)| Y       | Y          | Y       |         | Y           |          | braziliex         |       |
 | BTC38             |         |            |         |         |             |          |                   |       |

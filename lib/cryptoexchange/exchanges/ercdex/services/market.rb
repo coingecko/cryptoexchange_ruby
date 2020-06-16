@@ -7,13 +7,13 @@ module Cryptoexchange::Exchanges
             true
           end
         end
-    
+
         def fetch(market_pair)
           # call IdFetcher to obtain base, target, base volume, bid, and ask
           pair_id = IdFetcher.get_id(market_pair.base.upcase, market_pair.target.upcase)
           base = pair_id[0]["tokenPair"]["tokenA"]["address"]
           target = pair_id[0]["tokenPair"]["tokenB"]["address"]
-          raw_output = HTTP.post(ticker_url, :json => { :baseTokenAddress=>"#{base}",:quoteTokenAddress=>"#{target}",:networkId=>1,:startDate=>"#{DateTime.parse("#{(Time.now - 1200).utc}").iso8601}" })
+          raw_output = HTTP.post(ticker_url, :json => { :baseTokenAddress=>"#{base}",:quoteTokenAddress=>"#{target}",:networkId=>1,:startDate=>"#{(Time.now - 1200).utc.iso8601}" })
           output = JSON.parse(raw_output)
           adapt(output.last, pair_id, market_pair)
         end

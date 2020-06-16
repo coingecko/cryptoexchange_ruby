@@ -19,16 +19,16 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 16 May 2018 16:52:27 GMT
+      - Sun, 03 Jun 2018 11:19:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '3298'
+      - '458'
       Connection:
       - close
       Set-Cookie:
-      - __cfduid=dbe11aaf2b3825f297118b6390d88e6301526489546; expires=Thu, 16-May-19
-        16:52:26 GMT; path=/; domain=.ercdex.com; HttpOnly; Secure
+      - __cfduid=d5c093a610d17999fcb8ea9c0abe38d5f1528024746; expires=Mon, 03-Jun-19
+        11:19:06 GMT; path=/; domain=.ercdex.com; HttpOnly; Secure
       X-Dns-Prefetch-Control:
       - 'off'
       X-Frame-Options:
@@ -54,10 +54,10 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 41bf5ad42ad731c8-SIN
+      - 4251c3475e4e3120-SIN
     body:
       encoding: UTF-8
-      string: '{"buys":{"priceLevels":[{"price":"689.27143825000000002232","volume":"20311301503432055201","volumeRatio":0.8643107022737044},{"price":"688.82662720000000002237","volume":"20324417563398164756","volumeRatio":0.8648688324850283},{"price":"684.59999999999999999829","volume":"116783523225241017","volumeRatio":0.004969511626606001},{"price":"684.12155","volume":"21479603788628262","volumeRatio":0.0009140256931331176},{"price":"683.71212000000000000514","volume":"19452631613434028345","volumeRatio":0.8277715580184692},{"price":"682.70350000000000003384","volume":"19481370756118871515","volumeRatio":0.8289945002603775},{"price":"668.50000000000000000083","volume":"605213455035346287","volumeRatio":0.025753764044057288},{"price":"655.17914081279611351077","volume":"45789003543035384","volumeRatio":0.0019484682358738461},{"price":"655","volume":"143378600000000000","volumeRatio":0.006101217021276596},{"price":"644.74532559638942617666","volume":"155100000000000000","volumeRatio":0.0066},{"price":"612","volume":"7600000000000000000","volumeRatio":0.32340425531914896},{"price":"600","volume":"1075000000000000000","volumeRatio":0.045744680851063826},{"price":"558.00457563752023047601","volume":"113131324467978605","volumeRatio":0.0048140989135310045},{"price":"532","volume":"5789473684210526316","volumeRatio":0.24636058230683092},{"price":"465","volume":"1111111100000000000","volumeRatio":0.04728132340425532}]},"sells":{"priceLevels":[{"price":"6447.4532559638942617666","volume":"170610000000000000","volumeRatio":0.00726},{"price":"5999","volume":"1000000000000000000","volumeRatio":0.0425531914893617},{"price":"1200.04800192007680307207","volume":"8851818558189475531","volumeRatio":0.37667313013572234},{"price":"850","volume":"3945500000000000000","volumeRatio":0.1678936170212766},{"price":"847.45762711864406779656","volume":"4377000000000000001","volumeRatio":0.18625531914893617},{"price":"847.45762711864406779645","volume":"4474818558189475530","volumeRatio":0.1904178109867862},{"price":"847","volume":"950000000000000000","volumeRatio":0.04042553191489362},{"price":"846.98","volume":"234000000000000000","volumeRatio":0.009957446808510639},{"price":"811","volume":"3945500000000000000","volumeRatio":0.1678936170212766},{"price":"785.5","volume":"2000000000000000000","volumeRatio":0.0851063829787234},{"price":"775","volume":"23500000000000000000","volumeRatio":1},{"price":"770","volume":"2433460000000000000","volumeRatio":0.10355148936170212},{"price":"752.93685918720381906916","volume":"39843978461069144","volumeRatio":0.0016954884451518785},{"price":"745.1009611802399225095","volume":"2013150000000000000","volumeRatio":0.08566595744680851},{"price":"735","volume":"5476477423838130131.29931972789115646259","volumeRatio":0.23304159250375023},{"price":"720","volume":"200000000000000000","volumeRatio":0.00851063829787234},{"price":"703.4965","volume":"19000000000000000000","volumeRatio":0.8085106382978723},{"price":"703.12788","volume":"19000000000000000000","volumeRatio":0.8085106382978723},{"price":"696.065139","volume":"20000000000000000000","volumeRatio":0.851063829787234},{"price":"696.057516","volume":"20000000000000000000","volumeRatio":0.851063829787234},{"price":"696.00660245","volume":"20000000000000000000","volumeRatio":0.851063829787234}]}}'
+      string: '{"buys":{"priceLevels":[{"price":"617.71701962","volume":"17807506755709681703","volumeRatio":0.8903753377854841},{"price":"610.1959600000000000025","volume":"17125645997394017489","volumeRatio":0.8562822998697008}]},"sells":{"priceLevels":[{"price":"714.28","volume":"1000000000000000000","volumeRatio":0.05},{"price":"627.52404","volume":"19000000000000000000","volumeRatio":0.95},{"price":"625.48299296","volume":"20000000000000000000","volumeRatio":1}]}}'
     http_version: 
-  recorded_at: Wed, 16 May 2018 16:52:27 GMT
+  recorded_at: Sun, 03 Jun 2018 11:19:06 GMT
 recorded_with: VCR 4.0.0

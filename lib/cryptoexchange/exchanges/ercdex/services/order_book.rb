@@ -7,7 +7,7 @@ module Cryptoexchange::Exchanges
             true
           end
         end
-        
+
         def fetch(market_pair)
           pair_id = IdFetcher.get_id(market_pair.base.upcase, market_pair.target.upcase)
           base = pair_id[0]["tokenPair"]["tokenA"]["address"]

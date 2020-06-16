@@ -19,7 +19,6 @@ module Cryptoexchange::Exchanges
                               market: Ercdex::Market::NAME
                             )
           end
-
           market_pairs
         end
       end

@@ -271,6 +271,7 @@ Or install it yourself as:
 | EtoroX            | Y       | Y [x]      | Y       |         | Y           | Y        | etorox            |       |
 | Everbloom         | Y       |            |         |         | Y           |          | everbloom         |       |
 | EXNCE             | Y       | N          | N       |         | Y           | Y        | exnce             |       |
+| Excoincial        | Y       | Y [x]      | Y       |         | Y           | Y        | excoincial        |       |
 | ExMarkets         | Y       | Y          | Y       |         | Y           | Y        | exmarkets         |       |
 | Exmo              | Y       | Y [x]      | Y       |         | Y           | Y        | exmo              |       |
 | Exrates           | Y       | Y [x]      | N       |         | Y           | Y        | exrates           |       |

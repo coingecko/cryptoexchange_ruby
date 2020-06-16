@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://excoincial.com/api/v2/trades?market=afcasheth
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - excoincial.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Sep 2019 18:43:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '8375'
+      Connection:
+      - close
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - https://excoincial.com,https://vendasity.com,https://petstore.swagger.io
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Origin
+      Version:
+      - HTTP/1.0
+      Host:
+      - excoincial.com
+      X-Forwarded-Proto:
+      - https
+      X-Real-Ip:
+      - 91.210.37.218
+      X-Forwarded-For:
+      - 91.210.37.218, 172.31.37.103
+      X-Forwarded-Port:
+      - '443'
+      X-Amzn-Trace-Id:
+      - Root=1-5d827ad6-c25613acdb90e3365351a3e2
+      User-Agent:
+      - http.rb/5.0.0.pre
+      Etag:
+      - W/"6a58b7223170ab9c97ea559af5cb8215"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8ceef4c2-c38b-4b72-91e6-be11e2851096
+      X-Runtime:
+      - '0.049743'
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":6952166,"price":"0.000031","volume":"4999.9","funds":"0.1549969","market":"afcasheth","created_at":"2019-09-17T04:28:45Z","maker_type":"buy","type":"buy"},{"id":6853246,"price":"0.000031","volume":"0.08380215","funds":"0.00000259786665","market":"afcasheth","created_at":"2019-09-16T19:23:31Z","maker_type":"buy","type":"buy"},{"id":6775552,"price":"0.00005","volume":"0.1","funds":"0.000005","market":"afcasheth","created_at":"2019-09-16T13:57:24Z","maker_type":"sell","type":"sell"},{"id":6342288,"price":"0.000039","volume":"12.0","funds":"0.000468","market":"afcasheth","created_at":"2019-09-15T11:01:04Z","maker_type":"sell","type":"sell"},{"id":6342287,"price":"0.000038","volume":"12.0","funds":"0.000456","market":"afcasheth","created_at":"2019-09-15T11:01:04Z","maker_type":"sell","type":"sell"},{"id":6342286,"price":"0.000038","volume":"12.0","funds":"0.000456","market":"afcasheth","created_at":"2019-09-15T11:01:04Z","maker_type":"sell","type":"sell"},{"id":6342285,"price":"0.000037","volume":"27.0","funds":"0.000999","market":"afcasheth","created_at":"2019-09-15T11:01:03Z","maker_type":"sell","type":"sell"},{"id":6342284,"price":"0.000036","volume":"9.0","funds":"0.000324","market":"afcasheth","created_at":"2019-09-15T11:01:03Z","maker_type":"sell","type":"sell"},{"id":6342283,"price":"0.000035","volume":"9.0","funds":"0.000315","market":"afcasheth","created_at":"2019-09-15T11:01:03Z","maker_type":"sell","type":"sell"},{"id":6342282,"price":"0.000034","volume":"8.0","funds":"0.000272","market":"afcasheth","created_at":"2019-09-15T11:01:03Z","maker_type":"sell","type":"sell"},{"id":6023004,"price":"0.000029","volume":"2576.30854555","funds":"0.07471294782095","market":"afcasheth","created_at":"2019-09-14T05:32:00Z","maker_type":"sell","type":"sell"},{"id":5854626,"price":"0.000029","volume":"743.42167785","funds":"0.02155922865765","market":"afcasheth","created_at":"2019-09-13T13:36:20Z","maker_type":"buy","type":"buy"},{"id":5843626,"price":"0.00003","volume":"3256.57832215","funds":"0.0976973496645","market":"afcasheth","created_at":"2019-09-13T12:41:24Z","maker_type":"buy","type":"buy"},{"id":5813404,"price":"0.00003","volume":"2000.0","funds":"0.06","market":"afcasheth","created_at":"2019-09-13T09:21:55Z","maker_type":"buy","type":"buy"},{"id":5643014,"price":"0.00003","volume":"2143.42167785","funds":"0.0643026503355","market":"afcasheth","created_at":"2019-09-12T10:48:56Z","maker_type":"buy","type":"buy"},{"id":5634229,"price":"0.000031","volume":"9974.23151664","funds":"0.30920117701584","market":"afcasheth","created_at":"2019-09-12T09:54:03Z","maker_type":"sell","type":"sell"},{"id":5584803,"price":"0.000031","volume":"920.0","funds":"0.02852","market":"afcasheth","created_at":"2019-09-12T04:34:33Z","maker_type":"buy","type":"buy"},{"id":5584802,"price":"0.000032","volume":"3450.0","funds":"0.1104","market":"afcasheth","created_at":"2019-09-12T04:34:33Z","maker_type":"buy","type":"buy"},{"id":5584801,"price":"0.000032","volume":"3807.63043627","funds":"0.12184417396064","market":"afcasheth","created_at":"2019-09-12T04:34:33Z","maker_type":"buy","type":"buy"},{"id":5538691,"price":"0.000032","volume":"823.98176027","funds":"0.02636741632864","market":"afcasheth","created_at":"2019-09-11T20:23:24Z","maker_type":"buy","type":"buy"},{"id":5538494,"price":"0.000032","volume":"668.38780346","funds":"0.02138840971072","market":"afcasheth","created_at":"2019-09-11T20:21:11Z","maker_type":"buy","type":"buy"},{"id":5538493,"price":"0.000032","volume":"251.61219654","funds":"0.00805159028928","market":"afcasheth","created_at":"2019-09-11T20:21:11Z","maker_type":"buy","type":"buy"},{"id":5486490,"price":"0.000032","volume":"750.0","funds":"0.024","market":"afcasheth","created_at":"2019-09-11T14:17:38Z","maker_type":"buy","type":"buy"},{"id":5486225,"price":"0.000032","volume":"250.0","funds":"0.008","market":"afcasheth","created_at":"2019-09-11T14:15:59Z","maker_type":"buy","type":"buy"},{"id":5486224,"price":"0.000033","volume":"750.0","funds":"0.02475","market":"afcasheth","created_at":"2019-09-11T14:15:59Z","maker_type":"buy","type":"buy"},{"id":5285932,"price":"0.000033","volume":"50.0","funds":"0.00165","market":"afcasheth","created_at":"2019-09-10T12:13:27Z","maker_type":"buy","type":"buy"},{"id":4743457,"price":"0.0000042","volume":"551.83333333","funds":"0.002317699999986","market":"afcasheth","created_at":"2019-09-07T15:43:41Z","maker_type":"buy","type":"buy"},{"id":4743400,"price":"0.000035","volume":"345.19066666","funds":"0.0120816733331","market":"afcasheth","created_at":"2019-09-07T15:43:23Z","maker_type":"buy","type":"buy"},{"id":4586150,"price":"0.000046","volume":"2581.57832215","funds":"0.1187526028189","market":"afcasheth","created_at":"2019-09-06T06:01:18Z","maker_type":"buy","type":"buy"},{"id":4584415,"price":"0.000046","volume":"15108.0","funds":"0.694968","market":"afcasheth","created_at":"2019-09-05T16:01:16Z","maker_type":"buy","type":"buy"},{"id":4582334,"price":"0.000046","volume":"4200.0","funds":"0.1932","market":"afcasheth","created_at":"2019-09-05T04:25:07Z","maker_type":"buy","type":"buy"},{"id":4581690,"price":"0.000046","volume":"4553.49185178","funds":"0.20946062518188","market":"afcasheth","created_at":"2019-09-04T10:44:42Z","maker_type":"buy","type":"buy"},{"id":4581689,"price":"0.000044","volume":"1600.0","funds":"0.0704","market":"afcasheth","created_at":"2019-09-02T15:26:21Z","maker_type":"buy","type":"buy"},{"id":4581688,"price":"0.000044","volume":"5000.0","funds":"0.22","market":"afcasheth","created_at":"2019-09-02T15:21:20Z","maker_type":"buy","type":"buy"},{"id":4581687,"price":"0.000044","volume":"499.0","funds":"0.021956","market":"afcasheth","created_at":"2019-09-02T15:03:57Z","maker_type":"buy","type":"buy"},{"id":4470093,"price":"0.000048","volume":"22749.62572397","funds":"1.09198203475056","market":"afcasheth","created_at":"2019-08-24T09:47:56Z","maker_type":"buy","type":"buy"},{"id":4469390,"price":"0.000048","volume":"167.04094269","funds":"0.00801796524912","market":"afcasheth","created_at":"2019-08-24T09:30:02Z","maker_type":"sell","type":"sell"},{"id":4462998,"price":"0.000048","volume":"21611.04208333","funds":"1.03733001999984","market":"afcasheth","created_at":"2019-08-24T06:47:51Z","maker_type":"buy","type":"buy"},{"id":4443526,"price":"0.000048","volume":"833.33333333","funds":"0.03999999999984","market":"afcasheth","created_at":"2019-08-23T18:59:53Z","maker_type":"buy","type":"buy"},{"id":4359580,"price":"0.00005415","volume":"1981.13804709","funds":"0.1072786252499235","market":"afcasheth","created_at":"2019-08-22T06:35:23Z","maker_type":"sell","type":"sell"},{"id":3374423,"price":"0.0000042","volume":"552.65523098","funds":"0.002321151970116","market":"afcasheth","created_at":"2019-08-05T04:08:02Z","maker_type":"buy","type":"buy"},{"id":3192720,"price":"0.00000415","volume":"1338.0875","funds":"0.005553063125","market":"afcasheth","created_at":"2019-07-31T11:54:30Z","maker_type":"buy","type":"buy"},{"id":3148682,"price":"0.000004","volume":"1364.47531761","funds":"0.00545790127044","market":"afcasheth","created_at":"2019-07-30T16:20:08Z","maker_type":"buy","type":"buy"},{"id":3148640,"price":"0.0000055","volume":"1364.47531761","funds":"0.007504614246855","market":"afcasheth","created_at":"2019-07-30T16:19:31Z","maker_type":"buy","type":"buy"},{"id":3148546,"price":"0.000006","volume":"2000.0","funds":"0.012","market":"afcasheth","created_at":"2019-07-30T16:18:07Z","maker_type":"buy","type":"buy"},{"id":3100807,"price":"0.00007","volume":"31.77485714","funds":"0.0022242399998","market":"afcasheth","created_at":"2019-07-29T10:22:24Z","maker_type":"sell","type":"sell"},{"id":2634569,"price":"0.00009399","volume":"10639.42972656","funds":"0.9999999999993744","market":"afcasheth","created_at":"2019-07-17T09:09:08Z","maker_type":"sell","type":"sell"},{"id":2589916,"price":"0.000094","volume":"801.72985916","funds":"0.07536260676104","market":"afcasheth","created_at":"2019-07-16T11:33:24Z","maker_type":"sell","type":"sell"},{"id":2589864,"price":"0.000093","volume":"4600.0","funds":"0.4278","market":"afcasheth","created_at":"2019-07-16T11:31:49Z","maker_type":"sell","type":"sell"},{"id":2589803,"price":"0.000092","volume":"4842.52921323","funds":"0.44551268761716","market":"afcasheth","created_at":"2019-07-16T11:30:08Z","maker_type":"sell","type":"sell"}]'
+    http_version: 
+  recorded_at: Wed, 18 Sep 2019 18:43:34 GMT
+recorded_with: VCR 4.0.0

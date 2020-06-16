@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://excoincial.com/api/v2/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - excoincial.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Sep 2019 18:43:33 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '10706'
+      Connection:
+      - close
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - https://excoincial.com,https://vendasity.com,https://petstore.swagger.io
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Origin
+      Version:
+      - HTTP/1.0
+      Host:
+      - excoincial.com
+      X-Forwarded-Proto:
+      - https
+      X-Real-Ip:
+      - 91.210.37.218
+      X-Forwarded-For:
+      - 91.210.37.218, 172.31.37.103
+      X-Forwarded-Port:
+      - '443'
+      X-Amzn-Trace-Id:
+      - Root=1-5d827ad3-aa8a56ae1a2a09146f62d474
+      User-Agent:
+      - http.rb/5.0.0.pre
+      Etag:
+      - W/"7844e7c4d9ef550fc5c77e8af9de2b66"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d648cb03-46c3-4666-acbe-f35d34ca0637
+      X-Runtime:
+      - '2.209741'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"btcusd":{"at":1568832211,"ticker":{"buy":"10177.29936828","sell":"10179.44789731","low":"10163.39","high":"10265.64","open":10237.37,"last":"10179.44789731","volume":"0.01501996","avg_price":"10211.62467612482188425028","price_change_percent":"-0.57%","vol":"0.01501996"}},"ethusd":{"at":1568832212,"ticker":{"buy":"213.58828912","sell":"213.59449751","low":"208.84","high":"215.64","open":209.04090368,"last":"213.59449751","volume":"1.0946515","avg_price":"212.87125096637851955663","price_change_percent":"+2.18%","vol":"1.0946515"}},"afcashusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.99","low":"0.01","high":"0.01","open":0.01,"last":"0.01","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"gmcusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"1.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"btxusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"kitusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0000149","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"etausd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xlmgoldusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"ntcusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"hotusd":{"at":1568832212,"ticker":{"buy":"0.00091241","sell":"0.00091449","low":"0.0008411","high":"0.0009279","open":0.00084149,"last":"0.00091489","volume":"122.63036407","avg_price":"0.00086734982087140003","price_change_percent":"+8.72%","vol":"122.63036407"}},"bolttusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"cbcusd":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xlmgoldafcash":{"at":1568832212,"ticker":{"buy":"0.70000012","sell":"0.0","low":"0.0","high":"0.0","open":0.7,"last":"0.7","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"ethbtc":{"at":1568832212,"ticker":{"buy":"0.02101722","sell":"0.021018","low":"0.020412","high":"0.021036","open":0.020486,"last":"0.021018","volume":"0.39430267","avg_price":"0.02086993427736693143","price_change_percent":"+2.60%","vol":"0.39430267"}},"afcashbtc":{"at":1568832212,"ticker":{"buy":"0.00000003","sell":"0.000129","low":"0.0","high":"0.0","open":1.0e-08,"last":"0.00000001","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"gmcbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.00086","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"btxbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"kitbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.00000099","low":"0.0","high":"0.0","open":9.9e-07,"last":"0.00000099","volume":"0.0","avg_price":"0.0","price_change_percent":"-0.00%","vol":"0.0"}},"etabtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.000041","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"tusdbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xlmgoldbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.00000042","low":"0.0","high":"0.0","open":1.0e-08,"last":"0.00000001","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"ntcbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"hotbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.00005","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"bolttbtc":{"at":1568832212,"ticker":{"buy":"0.00000001","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"cbcbtc":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"afcasheth":{"at":1568832212,"ticker":{"buy":"0.00003","sell":"0.000056","low":"0.000031","high":"0.00005","open":3.1e-05,"last":"0.000031","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"gmceth":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.001","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"btxeth":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.005","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"kiteth":{"at":1568832212,"ticker":{"buy":"0.00000005","sell":"0.00001799","low":"0.0","high":"0.0","open":6.0e-08,"last":"0.00000006","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"etaeth":{"at":1568832212,"ticker":{"buy":"0.00000007","sell":"0.00002","low":"0.0","high":"0.0","open":7.0e-08,"last":"0.00000007","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"tusdeth":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xlmgoldeth":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"ntceth":{"at":1568832212,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"hoteth":{"at":1568832213,"ticker":{"buy":"0.00000427","sell":"0.00000428","low":"0.00000403","high":"0.00000435","open":4.04e-06,"last":"0.00000427","volume":"6959.55434247","avg_price":"0.00000411886953623068","price_change_percent":"+5.69%","vol":"6959.55434247"}},"boltteth":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"cbceth":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.006","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"gmcafcash":{"at":1568832213,"ticker":{"buy":"0.0","sell":"389.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"btxafcash":{"at":1568832213,"ticker":{"buy":"2.50005","sell":"0.0","low":"0.0","high":"0.0","open":2.5,"last":"2.5","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"kitafcash":{"at":1568832213,"ticker":{"buy":"0.00366039","sell":"0.10237307","low":"0.0","high":"0.0","open":0.01303116,"last":"0.01303116","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"etaafcash":{"at":1568832213,"ticker":{"buy":"0.00099048","sell":"0.0226403","low":"0.00101231","high":"0.00176168","open":0.00101231,"last":"0.00101231","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xrpafcash":{"at":1568832213,"ticker":{"buy":"1.7","sell":"0.0","low":"0.0","high":"0.0","open":1.7,"last":"1.7","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"ntcafcash":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":100.0,"last":"100.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"hotafcash":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"bolttafcash":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"cbcafcash":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"gmctusd":{"at":1568832213,"ticker":{"buy":"0.0","sell":"1.22","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"xrptusd":{"at":1568832213,"ticker":{"buy":"0.31010773","sell":"0.31016278","low":"0.27186744","high":"0.31048","open":0.2723064,"last":"0.31011749","volume":"124.49892313","avg_price":"0.29693825522714305638","price_change_percent":"+13.89%","vol":"124.49892313"}},"xlmgoldtusd":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"cbctusd":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"afcashkit":{"at":1568832213,"ticker":{"buy":"0.00100017","sell":"0.0","low":"0.0","high":"0.0","open":0.001001,"last":"0.001001","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"afcasheta":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":0.25,"last":"0.25","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}},"afcashntc":{"at":1568832213,"ticker":{"buy":"0.0","sell":"0.0","low":"0.0","high":"0.0","open":"0.0","last":"0.0","volume":"0.0","avg_price":"0.0","price_change_percent":"+0.00%","vol":"0.0"}}}'
+    http_version: 
+  recorded_at: Wed, 18 Sep 2019 18:43:33 GMT
+recorded_with: VCR 4.0.0

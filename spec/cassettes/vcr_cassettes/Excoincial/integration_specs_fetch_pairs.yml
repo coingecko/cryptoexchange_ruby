@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://excoincial.com/api/v2/markets
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - excoincial.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Sep 2019 18:43:30 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1881'
+      Connection:
+      - close
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - https://excoincial.com,https://vendasity.com,https://petstore.swagger.io
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Origin
+      Version:
+      - HTTP/1.0
+      Host:
+      - excoincial.com
+      X-Forwarded-Proto:
+      - https
+      X-Real-Ip:
+      - 91.210.37.218
+      X-Forwarded-For:
+      - 91.210.37.218, 172.31.37.103
+      X-Forwarded-Port:
+      - '443'
+      X-Amzn-Trace-Id:
+      - Root=1-5d827ad2-6ccd493aa80843aa0c827b7a
+      User-Agent:
+      - http.rb/5.0.0.pre
+      Etag:
+      - W/"5e983d44d97c82a23e5401a505cc1c3d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 98711102-0339-4bd1-a957-2009bc3aa4be
+      X-Runtime:
+      - '0.017043'
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"btcusd","name":"BTC/USD"},{"id":"ethusd","name":"ETH/USD"},{"id":"afcashusd","name":"AFCASH/USD"},{"id":"gmcusd","name":"GMC/USD"},{"id":"btxusd","name":"BTX/USD"},{"id":"kitusd","name":"KIT/USD"},{"id":"etausd","name":"ETA/USD"},{"id":"xlmgoldusd","name":"XLMGOLD/USD"},{"id":"ntcusd","name":"NTC/USD"},{"id":"hotusd","name":"HOT/USD"},{"id":"bolttusd","name":"BOLTT/USD"},{"id":"cbcusd","name":"CBC/USD"},{"id":"xlmgoldafcash","name":"XLMGOLD/AFCASH"},{"id":"ethbtc","name":"ETH/BTC"},{"id":"afcashbtc","name":"AFCASH/BTC"},{"id":"gmcbtc","name":"GMC/BTC"},{"id":"btxbtc","name":"BTX/BTC"},{"id":"kitbtc","name":"KIT/BTC"},{"id":"etabtc","name":"ETA/BTC"},{"id":"tusdbtc","name":"TUSD/BTC"},{"id":"xlmgoldbtc","name":"XLMGOLD/BTC"},{"id":"ntcbtc","name":"NTC/BTC"},{"id":"hotbtc","name":"HOT/BTC"},{"id":"bolttbtc","name":"BOLTT/BTC"},{"id":"cbcbtc","name":"CBC/BTC"},{"id":"afcasheth","name":"AFCASH/ETH"},{"id":"gmceth","name":"GMC/ETH"},{"id":"btxeth","name":"BTX/ETH"},{"id":"kiteth","name":"KIT/ETH"},{"id":"etaeth","name":"ETA/ETH"},{"id":"tusdeth","name":"TUSD/ETH"},{"id":"xlmgoldeth","name":"XLMGOLD/ETH"},{"id":"ntceth","name":"NTC/ETH"},{"id":"hoteth","name":"HOT/ETH"},{"id":"boltteth","name":"BOLTT/ETH"},{"id":"cbceth","name":"CBC/ETH"},{"id":"gmcafcash","name":"GMC/AFCASH"},{"id":"btxafcash","name":"BTX/AFCASH"},{"id":"kitafcash","name":"KIT/AFCASH"},{"id":"etaafcash","name":"ETA/AFCASH"},{"id":"xrpafcash","name":"XRP/AFCASH"},{"id":"ntcafcash","name":"NTC/AFCASH"},{"id":"hotafcash","name":"HOT/AFCASH"},{"id":"bolttafcash","name":"BOLTT/AFCASH"},{"id":"cbcafcash","name":"CBC/AFCASH"},{"id":"gmctusd","name":"GMC/TUSD"},{"id":"xrptusd","name":"XRP/TUSD"},{"id":"xlmgoldtusd","name":"XLMGOLD/TUSD"},{"id":"cbctusd","name":"CBC/TUSD"},{"id":"afcashkit","name":"AFCASH/KIT"},{"id":"afcasheta","name":"AFCASH/ETA"},{"id":"afcashntc","name":"AFCASH/NTC"}]'
+    http_version: 
+  recorded_at: Wed, 18 Sep 2019 18:43:30 GMT
+recorded_with: VCR 4.0.0

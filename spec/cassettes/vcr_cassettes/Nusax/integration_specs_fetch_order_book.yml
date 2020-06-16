@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nusax.co.id/api/v2/depth?limit=300&market=ETHBTC
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - nusax.co.id
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 29 Dec 2018 18:24:36 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=db21b15a023a35fe0201c5207601d0bec1546107874; expires=Sun, 29-Dec-19
+        18:24:34 GMT; path=/; domain=.nusax.co.id; HttpOnly
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cf-Connecting-Ip:
+      - 86.181.89.181
+      Accept-Encoding:
+      - gzip
+      Cf-Ipcountry:
+      - GB
+      X-Forwarded-Proto:
+      - https
+      X-Request-Id:
+      - 29e3eee7-4eb1-4729-8196-2e6e6b15da24
+      Etag:
+      - W/"db346c3f85c4e964253e007815db447e"
+      User-Agent:
+      - http.rb/3.0.0
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000
+      - max-age=63072000; includeSubDomains
+      Cf-Visitor:
+      - '{"scheme":"https"}'
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Version:
+      - HTTP/1.1
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE
+      Host:
+      - nusax.co.id
+      X-Runtime:
+      - '0.004826'
+      X-Forwarded-For:
+      - 86.181.89.181
+      X-Powered-By:
+      - Phusion Passenger 5.3.5
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 490e4dea0d262bac-AMS
+    body:
+      encoding: ASCII-8BIT
+      string: '{"timestamp":1546107876,"asks":[["0.0396053","0.06955454"],["0.0394317","0.31368009"],["0.0393917","0.31772858"],["0.0392231","0.51783033"],["0.0391418","0.24427553"],["0.0391267","0.03498429"],["0.0391101","0.15737549"],["0.0388834","0.52060094"],["0.0386802","0.08574222"],["0.0386739","0.21651767"],["0.0385808","0.07137785"],["0.0385018","0.17260728"],["0.0384004","0.36814149"],["0.0383342","0.11218856"],["0.0382407","0.25905569"],["0.0380706","0.47129958"],["0.0380686","0.33158157"],["0.0380643","0.22625664"],["0.037936","0.57844418"],["0.0378913","0.36575804"],["0.0378564","0.36117223"],["0.0377671","0.23665292"],["0.0377663","0.05382452"],["0.0376166","0.21795895"],["0.0374122","0.02578592"],["0.0374028","0.1049157"],["0.0373868","0.29107674"],["0.0370437","0.30112213"],["0.0370182","0.46485789"],["0.0369799","0.31695342"],["0.0369512","0.15405834"],["0.0365921","0.07858313"]],"bids":[["0.033506","0.28430292"],["0.0319809","0.43323203"],["0.0317615","0.55350785"],["0.0317338","0.39298504"],["0.0317096","0.4824676"],["0.0316694","0.01953013"],["0.031634","0.57496635"],["0.0315216","0.09652566"],["0.0314253","0.19654957"],["0.0313878","0.03724952"],["0.0312031","0.07206888"],["0.0311712","0.12234887"],["0.0311253","0.24786452"],["0.0310555","0.53650853"],["0.0310451","0.57991755"],["0.0309122","0.37408546"],["0.0308196","0.01403382"],["0.0307567","0.47345103"],["0.0307373","0.16743309"],["0.0306895","0.02976027"],["0.0306177","0.41133892"],["0.0306174","0.56496057"],["0.0306028","0.38200379"],["0.0305737","0.11042467"],["0.0305231","0.42923247"],["0.0305018","0.25115022"],["0.0304959","0.28811466"],["0.030479","0.53096162"],["0.0304774","0.46778652"],["0.030465","0.34294171"],["0.0304629","0.41529819"],["0.0304318","0.42861773"],["0.0304224","0.39293561"],["0.0304213","0.4284865"],["0.0304119","0.1401522"],["0.0303662","0.26556604"],["0.0303554","0.1732408"],["0.0303235","0.37488507"]]}'
+    http_version: 
+  recorded_at: Sat, 29 Dec 2018 18:24:36 GMT
+recorded_with: VCR 4.0.0

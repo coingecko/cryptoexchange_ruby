@@ -9,7 +9,9 @@ module Cryptoexchange::Exchanges
         end
 
         def fetch(market_pair)
-          output = super(ticker_url(market_pair))
+          output = Cryptoexchange::Cache.ticker_cache.fetch(ticker_url(market_pair)) do
+            HTTP.use(:auto_inflate).headers("Accept-Encoding" => "gzip").get(ticker_url(market_pair)).parse(:json)
+          end
           adapt(output, market_pair)
         end
 
@@ -19,7 +21,6 @@ module Cryptoexchange::Exchanges
 
         def adapt(output, market_pair)
           order_book = Cryptoexchange::Models::OrderBook.new
-
           order_book.base      = market_pair.base
           order_book.target    = market_pair.target
           order_book.market    = BambooRelay::Market::NAME

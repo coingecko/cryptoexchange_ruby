@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rest.bamboorelay.com/main/0x/markets/WETH-DAI/fills
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - rest.bamboorelay.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 16 Dec 2019 04:55:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block; report=https://bamboorelay.com/report/xss
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - no-referrer
+      Expect-Ct:
+      - max-age=31536000; enforce; report-uri=https://bamboorelay.com/report/ct
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Feature-Policy:
+      - accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; geolocation
+        'none'; camera 'none'; microphone 'none'; midi 'none'; picture-in-picture
+        'none'; speaker 'none'; gyroscope 'none'; magnetometer 'none'; vr 'none';
+        payment 'self'; encrypted-media 'self'; usb 'self'; encrypted-media 'self'
+      Report-To:
+      - '{"max_age":10886400,"endpoints":[{"url":"https://bamboorelay.com/report/all"}],"include_subdomains":true}'
+      Access-Control-Max-Age:
+      - '1728000'
+      X-Robots-Tag:
+      - noindex
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"baseTokenAddress":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","quoteTokenAddress":"0x6b175474e89094c44da98b954eedeac495271d0f","transactionHash":"0x3cfe04693b2fa2bf155d28fd3ce80e84ab5fe94ed7fb4fdafeb989f374701b6b","type":"SELL","blockNumber":9113651,"makerAddress":"0xb0dd0dcada73b715e3b5567ab17bd7f37216a637","takerAddress":"0x7727b4eb4ba625c856e9a0eeb30e64dfde5d91ae","feeRecipientAddress":"0x0000000000000000000000000000000000000000","makerFeePaid":"0.000000000000000000","takerFeePaid":"0.000000000000000000","protocolFeePaid":"0.001035","filledBaseTokenAmount":"0.010000000000000000","filledQuoteTokenAmount":"1.411970399999999999","orderHash":"0x0cc66c5be85cf151ae96014f9b1e576766588656c172b7ee7875c749bfcaf518","timestamp":1576467606,"source":"EXTERNAL","outlier":false},{"baseTokenAddress":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","quoteTokenAddress":"0x6b175474e89094c44da98b954eedeac495271d0f","transactionHash":"0x2da1e884b312f887c191848a28120933fe362693b7624908652662d8c6da8460","type":"SELL","blockNumber":9113626,"makerAddress":"0xb0dd0dcada73b715e3b5567ab17bd7f37216a637","takerAddress":"0x7727b4eb4ba625c856e9a0eeb30e64dfde5d91ae","feeRecipientAddress":"0x0000000000000000000000000000000000000000","makerFeePaid":"0.000000000000000000","takerFeePaid":"0.000000000000000000","protocolFeePaid":"0.001035","filledBaseTokenAmount":"0.010000000000000000","filledQuoteTokenAmount":"1.419555199999999999","orderHash":"0x2fcd183338a34cf97f15611130c545407a71391ce9c8558ba72ae5c3f40a09c3","timestamp":1576467284,"source":"EXTERNAL","outlier":false},{"baseTokenAddress":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","quoteTokenAddress":"0x6b175474e89094c44da98b954eedeac495271d0f","transactionHash":"0x1500183ddaade081800dfc9a101d909a2ca2976f73f666c60e8ad29f0f24d755","type":"SELL","blockNumber":9104646,"makerAddress":"0xb0dd0dcada73b715e3b5567ab17bd7f37216a637","takerAddress":"0xbd74f769092949f8664cc9fc11889c6f58728de8","feeRecipientAddress":"0x0000000000000000000000000000000000000000","makerFeePaid":"0.000000000000000000","takerFeePaid":"0.000000000000000000","protocolFeePaid":"0.0009975","filledBaseTokenAmount":"0.004000000000000000","filledQuoteTokenAmount":"0.570017679999999999","orderHash":"0xef930f40ad0f30d3b2d339ffeae33a22e774a46cd420bbbd29b577b638692495","timestamp":1576315682,"source":"WEBSITE","outlier":false},{"baseTokenAddress":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","quoteTokenAddress":"0x6b175474e89094c44da98b954eedeac495271d0f","transactionHash":"0x5a25872d7ffcc766ea8f9c59b2adf2734d32a4c50fb5c7a7406520d138511ebc","type":"SELL","blockNumber":9086236,"makerAddress":"0x998497ffc64240d6a70c38e544521d09dcd23293","takerAddress":"0x0951ff0835302929d6c0162b3d2495a85e38ec3a","feeRecipientAddress":"0x0000000000000000000000000000000000000000","makerFeePaid":"0.000000000000000000","takerFeePaid":"0.000000000000000000","protocolFeePaid":"0.0011625","filledBaseTokenAmount":"0.025000000000000000","filledQuoteTokenAmount":"3.607651310000000000","orderHash":"0xde6009bdb458fb2ab2d42ac6d249d9f327222ca4d51840a070bc1327f66ee47b","timestamp":1576028196,"source":"EXTERNAL","outlier":false},{"baseTokenAddress":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","quoteTokenAddress":"0x6b175474e89094c44da98b954eedeac495271d0f","transactionHash":"0x223572a707d480867c7997639befce7850c56f447b1b88e0a1041a90c6860c83","type":"SELL","blockNumber":9085325,"makerAddress":"0xb0dd0dcada73b715e3b5567ab17bd7f37216a637","takerAddress":"0x7727b4eb4ba625c856e9a0eeb30e64dfde5d91ae","feeRecipientAddress":"0x0000000000000000000000000000000000000000","makerFeePaid":"0.000000000000000000","takerFeePaid":"0.000000000000000000","protocolFeePaid":"0.0004725","filledBaseTokenAmount":"0.010000000000000000","filledQuoteTokenAmount":"1.446501199999999999","orderHash":"0xb588b1125eb4f20cfc370e02676b433e075421e730575ea4ab5a0c4e6da67854","timestamp":1576014550,"source":"WEBSITE","outlier":false}]'
+    http_version: 
+  recorded_at: Mon, 16 Dec 2019 04:55:42 GMT
+recorded_with: VCR 4.0.0

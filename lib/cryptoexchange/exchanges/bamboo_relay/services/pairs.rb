@@ -5,26 +5,18 @@ module Cryptoexchange::Exchanges
         PAIRS_URL = "#{Cryptoexchange::Exchanges::BambooRelay::Market::API_URL}/markets"
 
         def fetch
-          outputs = []
-          (1..5).each do |page_id|
-            pair_url = PAIRS_URL + "?page=#{page_id}&perPage=1000"
-            puts pair_url
-            output = fetch_via_api(pair_url)
-            break if output.empty?
-            outputs = outputs + output
-          end
-          adapt(outputs)
-        end
-
-        def adapt(output)
-          output.map do |ticker|
+          market_pairs = []
+          raw_output = HTTP.use(:auto_inflate).headers("Accept-Encoding" => "gzip").get(PAIRS_URL + "?perPage=1000")
+          output = JSON.parse(raw_output)
+          output.each do |ticker|
             base, target = ticker['displayName'].split('/')
-            Cryptoexchange::Models::MarketPair.new({
-              base: base,
-              target: target,
-              market: BambooRelay::Market::NAME
-            })
+              market_pairs << Cryptoexchange::Models::MarketPair.new(
+                base:   base,
+                target: target,
+                market: BambooRelay::Market::NAME
+            )
           end
+          market_pairs
         end
       end
     end
